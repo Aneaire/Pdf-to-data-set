@@ -12,7 +12,7 @@ const queryClient = new QueryClient();
 export default function Home() {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="  min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="  min-h-screen px-2 py-8 md:p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <div className=" lg:w-3xl mx-auto space-y-2">
           <p className="  text-2xl md:text-3xl font-bold text-center pb-2">
             Tune Gemini with PDF
