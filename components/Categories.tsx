@@ -81,7 +81,7 @@ const Categories = () => {
   return (
     <>
       <div className="w-full border-dashed border border-white/25 rounded-md p-4">
-        <div>
+        <div className="pb-2">
           <h2 className=" flex">
             You are selecting{" "}
             <button

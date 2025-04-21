@@ -1,4 +1,10 @@
-const Loading = ({ size = 32 }: { size?: number }) => {
+const Loading = ({
+  size = 32,
+  className,
+}: {
+  size?: number;
+  className?: string;
+}) => {
   return (
     <svg
       width={size}
